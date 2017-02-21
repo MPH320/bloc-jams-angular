@@ -9,9 +9,11 @@ body.landing {
      background-repeat: no-repeat;
      background-position: center center;
      background-size: cover;
+     
  }
  
  .hero-content .hero-title {
+     background-color: rgb(103,150,180);
      position: absolute;
      top: 40%;
      -webkit-transform: translateY(-50%);
@@ -28,6 +30,7 @@ body.landing {
 
 .selling-points {
      position: relative;
+    
  }
  
  .point {
@@ -55,6 +58,6 @@ body.landing {
  .ion-music-note,
  .ion-radio-waves,
  .ion-iphone {
-     color: rgb(233,50,117);
+     color: rgba(20,18,250,0.7);
      font-size: 5rem;
  }

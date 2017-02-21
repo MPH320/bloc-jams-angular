@@ -24,7 +24,7 @@ html {
 .navbar {
     position: relative;
     padding: 0.5rem;
-    background-color: rgba(101,18,95,0.5);
+    background-color: rgba(20,18,150,0.5);
     z-index: 1;
  }
  
@@ -65,12 +65,12 @@ html {
  
    /* #5 */
  .links-container .navbar-link:hover {
-     color: rgb(233,50,117);
+     color: rgb(53,50,250);
  }
 
 .links-container .navbar-link:active {
-     color: rgb(233,50,117);
-    background-color: white;
+     //color: rgb(233,50,117);
+    //background-color: white;
  }
 
 .container {

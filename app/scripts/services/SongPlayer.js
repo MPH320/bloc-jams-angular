@@ -1,5 +1,5 @@
 (function() {
-     function SongPlayer(Fixtures) {
+     function SongPlayer($scope, Fixtures) {
         var SongPlayer = {};
         
         /**
@@ -141,5 +141,5 @@
  
       angular
       .module('blocJams')
-      .factory('SongPlayer', SongPlayer);
+      .factory('SongPlayer', ['$rootScope', 'Fixtures', SongPlayer]);
 })();
